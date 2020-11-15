@@ -1,4 +1,4 @@
-# Spatio-chromatic contrast sensitivity function for any any colour direction.
+# Spatio-chromatic contrast sensitivity function for any colour direction.
 
 This repository contains Matlab code for the spatio-chromatic contrast sensitivity function (SC-CSF), which predicts the smallest contrast that is visible to an average human observer. 
 
@@ -16,4 +16,4 @@ Rafał K. Mantiuk, Minjung Kim, Maliha Ashraf, Qiang Xu, M. Ronnier Luo, Jasna M
 
 Other papers and more details on the modeling of the spatio-chromatic CSF can be found at the [project web page](https://www.cl.cam.ac.uk/research/rainbow/projects/hdr-csf/).
 
-This is an "early-access" version of the model, which is taken directly from our development branch. It is not optimized for speed and contains extra code that may not be relevant for core functionality of the model. 
+This is an "early-access" version of the model, which is taken directly from our development branch. It is not optimized for speed and contains extra code that may not be relevant for the core functionality of the model. 
