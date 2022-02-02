@@ -1,6 +1,16 @@
 classdef SCCSF_ConeContrastMat < SCCSF
     %SCCSF_ConeContrastMat 
-    % Cone contrast model
+    % Spatio-chromatic contrast sensitivity function for any colour
+    % direction. 
+    %
+    % The latest version of the code can be found at: https://github.com/gfxdisp/omni-csf
+    %
+    % The model is described in the paper:
+    %
+    % Rafał K. Mantiuk, Minjung Kim, Maliha Ashraf, Qiang Xu, M. Ronnier Luo, Jasna Martinovic and Sophie Wuerger. 
+    % "Practical color contrast sensitivity functions for luminance levels up to 10000 cd/m^2". 
+    % In: Color Imaging Conference (CIC28), 2020 [PDF](https://www.cl.cam.ac.uk/~rkm38/pdfs/mantiuk2020practical_csf.pdf)
+
     
     properties( Constant )
         % which entries in the meachism matrix should be fixed to 1
